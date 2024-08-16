@@ -25,7 +25,7 @@ struct Fetch_API_SwiftApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
         .modelContainer(sharedModelContainer)
     }
